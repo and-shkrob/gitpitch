@@ -16,11 +16,11 @@
 
 @snap[west list-content-concise span-100]
 @ol[](false)
-- Sherbook \n @css[text-gray fragment](booking portal, smartphones)
-- Driverportal \n @css[text-gray fragment](driver prebook portal)
-- Driver-ws \n @css[text-gray fragment](driver app)
-- AMP \n @css[text-gray fragment](account management portal)
-- DAB \n @css[text-gray fragment](dashboards)
+- Sherbook - @css[text-gray](booking portal, smartphones)
+- Driverportal - @css[text-gray](driver prebook portal)
+- Driver-ws - @css[text-gray](driver app)
+- AMP - @css[text-gray](account management portal)
+- DAB - @css[text-gray](dashboards)
 - External-ws \n @css[text-gray fragment](telephony, misc)
 @olend
 <br><br>
