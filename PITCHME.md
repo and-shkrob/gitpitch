@@ -21,7 +21,7 @@
 - Driver-ws - @css[text-gray](driver app)
 - AMP - @css[text-gray](account management portal)
 - DAB - @css[text-gray](dashboards)
-- External-ws \n @css[text-gray fragment](telephony, misc)
+- External-ws - @css[text-gray fragment](telephony, misc)
 @olend
 <br><br>
 @snapend
