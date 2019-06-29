@@ -10,9 +10,8 @@
 @snapend
 
 ---
-@snap[north-west]
 Список веб-сервисов
-@snapend
+=====
 
 @ul
 * Sherbook
