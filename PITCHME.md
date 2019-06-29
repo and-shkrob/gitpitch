@@ -10,16 +10,18 @@
 @snapend
 
 ---
-Список веб-сервисов
-=====
+@snap[north-west]
+Веб сервисы
+@snapend
 
-@ul
-* Sherbook
-* Driverportal
-* Driver-ws
-* External-ws
-* AMP
-* Dashboards
-@ulend
-
----
+@snap[south-west list-content-concise span-100]
+@ol
+- Sherbook
+- Driverportal
+- Driver-ws
+- External-ws
+- AMP
+- Dashboards
+@olend
+<br><br>
+@snapend
