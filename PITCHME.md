@@ -14,8 +14,8 @@
 Веб сервисы
 @snapend
 
-@snap[south-west list-content-concise span-100]
-@ol(false)
+@snap[west list-content-concise span-100]
+@ol[](false)
 - Sherbook
 - Driverportal
 - Driver-ws
