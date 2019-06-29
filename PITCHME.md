@@ -30,20 +30,22 @@ Web Services
 
 ---
 
-@snap[north-west span-49]
-@box[bg-blue text-white box-wide-padding rounded](HTTP#CLIENT + PROXY + SERVER)
-@snapend
-@snap[north-west template-note text-gray]
-<br>Simple, extensible, stateless
+@snap[north]
+<h4>@color[color-brand](Common features controllable with HTTP)</h4>
 @snapend
 
-@snap[north-east text-white span-49]
-@size[60%](Common features controllable with HTTP)
-@ol[](false)
-- Cookies
-- Cache
-- CORS
-- Authentication
-- Sessions
-@olend
+@snap[east span-49]
+@box[bg-blue text-white box-wide-padding rounded](Cache#)
+@snapend
+
+@snap[west span-49]
+@box[bg-blue text-white box-wide-padding rounded](CORS#)
+@snapend
+
+@snap[south-east span-49]
+@box[bg-blue text-white box-wide-padding rounded](Authentication#)
+@snapend
+
+@snap[south-west span-49]
+@box[bg-blue text-white box-wide-padding rounded](Sessions#)
 @snapend
