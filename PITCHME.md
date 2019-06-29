@@ -27,3 +27,23 @@ Web Services
 @olend
 <br><br>
 @snapend
+
+---
+
+@snap[north-west span-49]
+@box[bg-blue text-white box-wide-padding rounded](HTTP#CLIENT + PROXY + SERVER)
+@snapend
+@snap[north-west template-note text-gray]
+<br>Simple, extensible, stateless
+@snapend
+
+@snap[north-east text-white span-49]
+@size[60%](Common features controllable with HTTP)
+@ol[](false)
+- Cookies
+- Cache
+- CORS
+- Authentication
+- Sessions
+@olend
+@snapend
