@@ -11,17 +11,18 @@
 
 ---
 @snap[north-west]
-Веб сервисы
+Web Services
 @snapend
 
 @snap[west list-content-concise span-100]
 @ol[](false)
-- Sherbook - @css[text-gray](booking portal, smartphones)
-- Driverportal - @css[text-gray](driver prebook portal)
-- Driver-ws - @css[text-gray](driver app)
-- AMP - @css[text-gray](account management portal)
-- DAB - @css[text-gray](dashboards)
-- External-ws - @css[text-gray](telephony, misc)
+- **Driverportal** - @css[text-gray](driver portal, preallocation)
+- **Driver-ws** - @css[text-gray](driver app)
+- **External-ws** - @css[text-gray](telephony, misc)
+- **Adler** - @css[text-gray](third-party bookings)
+- **Sherbook** - @css[text-gray](booking portal, smartphones)
+- **AMP** - @css[text-gray](account management portal)
+- **DAB** - @css[text-gray](dashboards)
 @olend
 <br><br>
 @snapend
