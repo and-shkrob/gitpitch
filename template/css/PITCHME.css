@@ -240,7 +240,7 @@
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: crimson;
+  background-color: #1C60AC;
   content: counter(step-counter);
 }
 
@@ -305,7 +305,7 @@
 .reveal h1 {
     font-size: 1.7em !important;
     text-align: left !important;
-    color: crimson !important;
+    color: #1C60AC !important;
 }
 .reveal p {
     text-align: left !important;
