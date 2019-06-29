@@ -31,7 +31,7 @@ Web Services
 ---
 
 @snap[north]
-<h4>@color[color-brand](Common features controllable with HTTP)</h4>
+<h4>@color[#1C60AC](Common features controllable with HTTP)</h4>
 @snapend
 
 @snap[east span-49]
