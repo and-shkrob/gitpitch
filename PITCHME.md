@@ -15,7 +15,7 @@
 @snapend
 
 @snap[south-west list-content-concise span-100]
-@ol
+@ol(false)
 - Sherbook
 - Driverportal
 - Driver-ws
