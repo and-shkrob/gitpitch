@@ -1,11 +1,12 @@
+---?image=template/img/slide-1.jpg
 @title[Sherlock Web Services]
 
-@snap[midpoint slide1]
+@snap[north slide1]
 <h1>Sherlock</h1>
 @size[80%](Web Services Overview)
 @snapend
 
-@snap[south-east author-box]
+@snap[east author-box]
 @fa[github](https://github.com/and-shkrob/gitpitch) <br/>
 @snapend
 
