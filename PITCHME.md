@@ -183,24 +183,17 @@ UI доступен для следующих веб-сервисов:
 @snapend
 
 @snap[east span-50]
-```java
-class MyTest {
-
-    @Test        
-    void test() {
-        given(sherbook())
-                .get('status')
-                .then()
-                .statusCode(200)
-                .body(is("OK"));
-    }
-
-}
+```javascript
+    given(sherbook())
+            .get("status")
+            .then()
+            .statusCode(200)
+            .body(is("OK"))
 ```
-@snapend
-
 @[5](Я хочу сделать запрос в шербук)
 @[6](Хочу получить статус. Отправляю GET на адрес /status)
 @[7](Запустить запрос и затем ...)
 @[8](Проверить, что запрос успешно вернул статус 200)
 @[9](Проверить, что шербук вернул слово OK)
+
+@snapend
