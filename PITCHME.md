@@ -57,7 +57,38 @@ Cookie: JSESSIONID=7611617F64FC98BC2163788424C0A54E
 <h4>@color[#1C60AC](HTTP Cache)</h4>
 
 ```bash
+GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890f6ad4d94c3a382e778188a75b0a.js
+#Response
+Last-Modified: Sun, 30 Jun 2019 01:35:21 GMT
+Date: Sun, 30 Jun 2019 12:29:14 GMT
+ETag: W/"1216099-1561858521000"
+
+#Request
+GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890f6ad4d94c3a382e778188a75b0a.js
+If-Modified-Since: Sun, 30 Jun 2019 01:35:21 GMT
+If-None-Match: W/"1216099-1561858521000"
+
+#Not modified
+GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890f6ad4d94c3a382e778188a75b0a.js
+304 GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890f6ad4d94c3a382e778188a75b0a.js
+
+#Cache control
+Cache-control: no-store no-cache max-age=31536000 must-revalidate
+Expires: Sun, 30 Jun 2019 01:35:21 GMT
+
 ```
+
+@[1-4](Сервер в заголовках задает директивы для клиента о времени устаревания ответа)
+@[1-4](Время жизни = (date - last-modified) / 10)
+@[7-10](Для валидации кешированния клиент посылает заголовки if-modified-since и if-none-match, полученный в ответе от сервера в прошлый раз)
+@[12-14](Если валидация успешна, то сервер не посылает ответ, а возвращает статус 304. Данные возвращаются из кеша)
+@[16-18](Для управления кешированием можно задавать директивы через заголовки Cache-control и Expires)
+
+@snap[south-west]
+![Cache](template/img/cached.png)
+@snapend
+
+
 
 ---
 
