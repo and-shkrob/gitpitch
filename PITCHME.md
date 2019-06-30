@@ -28,24 +28,46 @@ Web Services
 <br><br>
 @snapend
 
+@span[south-west]
+@size[80%](Все веб-сервисы работают на основе HTTP протокола)
+@snapend
+
+---
+<h4>@color[#1C60AC](HTTP Cookie)</h4>
+
+```bash
+#Request
+GET http://demo-stable.sherlock.com/sherbook/portal/serverTime?1561894276240
+
+#Response
+Set-Cookie:  JSESSIONID=7611617F64FC98BC2163788424C0A54E; Path=/sherbook; HttpOnly
+
+#Next request
+Cookie: JSESSIONID=7611617F64FC98BC2163788424C0A54E
+```
+
+@[1-5](Получив HTTP-запрос, вместе с откликом сервер может отправить заголовок  Set-Cookie)
+@[5](Директива Path определяет область видимости cookie)
+@[5](Куки HTTPonly не доступны из JavaScript)
+@[7-8](Cookie обычно запоминаются браузером и посылаются в значении заголовка Cookie с каждым новым запросом к одному и тому же серверу)
+
 ---
 
-@snap[north]
-<h4>@color[#1C60AC](Common features controllable with HTTP)</h4>
-@snapend
+<h4>@color[#1C60AC](HTTP Sessions)</h4>
 
-@snap[east span-49]
-@box[bg-blue text-white box-wide-padding rounded](Cache#)
-@snapend
+```bash
+```
 
-@snap[west span-49]
-@box[bg-blue text-white box-wide-padding rounded](CORS#)
-@snapend
+---
 
-@snap[south-east span-49]
-@box[bg-blue text-white box-wide-padding rounded](Authentication#)
-@snapend
+<h4>@color[#1C60AC](HTTP Cache)</h4>
 
-@snap[south-west span-49]
-@box[bg-blue text-white box-wide-padding rounded](Sessions#)
-@snapend
+```bash
+```
+
+---
+
+<h4>@color[#1C60AC](HTTP Authentication)</h4>
+
+```bash
+```
