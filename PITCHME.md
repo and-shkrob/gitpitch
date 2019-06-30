@@ -28,7 +28,7 @@ Web Services
 <br><br>
 @snapend
 
-@span[south-west]
+@snap[south-west]
 @size[80%](Все веб-сервисы работают на основе HTTP протокола)
 @snapend
 
