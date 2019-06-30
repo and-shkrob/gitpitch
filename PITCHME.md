@@ -12,7 +12,7 @@
 
 ---
 @snap[north-west]
-Web Services
+<h4>@color[#1C60AC](HTTP Cache)</h4>
 @snapend
 
 @snap[west list-content-concise span-100]
