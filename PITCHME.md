@@ -270,3 +270,25 @@ UI доступен для следующих веб-сервисов:
 @[3](Путь к swagger-докам)
 @[4-21](Список веб-сервисов)
 
+---
+
+<h4>@color[#1C60AC](API Generator)</h4>
+
+Запустить генератор можно через IDE *@color[#1C60AC](com.haulmont.taxi.tool.ws.generation.Generator)*
+или из gradle *@color[#1C60AC](gw :ws:executeGenerator)*
+
+Все изменения в модели или api видны в version control вкладке
+
+![Changes](template/img/changes.png)
+
+Любой класс можно защитить от изменений, если повесить на него @color[#F5DB2E](@OnRegenerate(DENY)) аннотацию
+
+---
+
+<h4>@color[#1C60AC](API Generator)</h4>
+
+![Changes](template/img/changes2.png)
+
+---
+
+<h4>@color[#1C60AC](API Generator)</h4>
