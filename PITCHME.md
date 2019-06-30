@@ -96,4 +96,31 @@ Expires: Sun, 30 Jun 2019 01:35:21 GMT
 <h4>@color[#1C60AC](HTTP Authentication)</h4>
 
 ```bash
+#Initial Request
+GET https://app.mostaxi.ru/app/
+
+401 Unauthorized
+WWW-Authenticate: Basic realm="Unauthorized"
+
+#Invalid request
+GET https://app.mostaxi.ru/app/
+Authorization: Basic MTIzOjEyMw==
+
+401 Unauthorized
+WWW-Authenticate: Basic realm="Unauthorized"
+
+#Correct request
+GET https://app.mostaxi.ru/app/
+Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
+
+200 OK
 ```
+
+@[1-6](При попытке доступа к защищенным ресурсам, сервер возвращает 401)
+@[1-6](Тип аутентификации возвращается в заголовке WWW-Authenticate)
+@[7-13](Данные передаются в Authorization заголовке)
+@[14-18](Верные данные обрабатываются и возвращается статус 200)
+
+@ul[para]
+- Подобным образом работают и другие типы авторизаций. В Sherlock используется Basic и Bearer схемы
+@ulend
