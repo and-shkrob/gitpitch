@@ -146,7 +146,10 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 - Swagger - средство для описания структуры API
 @ulend
 
-@ul[list-bullets-circles](false)
+<br>
+<br>
+
+@ul[para](false)
 - Swagger UI:
 @ulend
 
