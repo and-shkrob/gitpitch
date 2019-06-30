@@ -210,4 +210,14 @@ UI доступен для следующих веб-сервисов:
 @[14](Проверить, что в ответе пришло слово OK)
 @[10-14](Итоговый результат)
 
+---?image=template/img/slide-1.jpg
+@title[Sherlock Integration Tests]
+
+@snap[north slide1]
+<h1>Sherlock</h1>
+@size[80%](Integration Tests)
+@snapend
+
+---
+
 
