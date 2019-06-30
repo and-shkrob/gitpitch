@@ -169,8 +169,8 @@ UI доступен для следующих веб-сервисов:
 
 <h4>@color[#1C60AC](HTTP Request)</h4>
 
-@ul[text-5](false)
-* URL
+@ul[](false)
+* @size[0.5em](URL)
 * Method
 * Query parameters
 * Path variables
@@ -179,8 +179,6 @@ UI доступен для следующих веб-сервисов:
 * Form-data
 * Body
 @ulend
-
-<br>
 
 ```java
     given(sherbook())
