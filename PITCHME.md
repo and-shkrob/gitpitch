@@ -12,7 +12,7 @@
 
 ---
 @snap[north-west]
-<h4>@color[#1C60AC](HTTP Cache)</h4>
+<h4>@color[#1C60AC](Web Services)</h4>
 @snapend
 
 @snap[west list-content-concise span-100]
@@ -143,15 +143,20 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 <h4>@color[#1C60AC](Swagger)</h4>
 
 @ul[para](false)
-- Swagger - средство для описания структуры API
-@ulend
-
-@ul[para](false)
-- Swagger UI:
+- Swagger - средство для описания структуры API. Swagger имеет web ui
 @ulend
 
 @ul[list-bullets-circles](false)
-- Интерфейс для отображения документации и структуры API в удобночитаемом виде
-- Позволяет запускать запросы, авторизовываться
-- Предоставляет примеры запросов для быстрого формирования Json
+- Swagger UI - интерфейс для отображения документации и структуры API в удобночитаемом виде
+- Swagger UI позволяет запускать запросы, авторизовываться
+- Swagger UI предоставляет примеры запросов для быстрого формирования Json
+@ulend
+
+UI доступен для следующих веб-сервисов:
+
+@ul[para](false)
+- [Sherbook](http://demo-stable.sherlock.com/sherbook/swagger-ui.html#/) /sherbook/swagger-ui.html
+- [AMP](http://demo-stable.sherlock.com/external-ws/amp/swagger-ui.html#/) /external-ws/amp/swagger-ui.html
+- [Dab](http://demo-stable.sherlock.com/external-ws/dab/swagger-ui.html#/) /external-ws/dab/swagger-ui.html
+- [External-ws](http://demo-stable.sherlock.com/external-ws/swagger-ui.html#/) /external-ws/swagger-ui.html
 @ulend
