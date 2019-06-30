@@ -313,8 +313,40 @@ UI доступен для следующих веб-сервисов:
 ```
 
 ---
+
 <h4>@color[#1C60AC](API Generator)</h4>
 
 Описание каждого метода доступно как javadocs. По нажатию ctrl + Q можно включить preview mode
 
 ![Javadocs](template/img/javadocs.png)
+
+---
+
+<h4>@color[#1C60AC](API Authorization)</h4>
+
+```json
+{
+  "source": {
+    "external-ws/amp": {
+      "defaultAuthorizationPath": "/api/user/login",
+      "authorizations": {
+        "default": {
+          "body": {
+            "path": "",
+            "username": "web_service_test",
+            "password": "12345",
+            "locale": "en_GB"
+          }
+        }
+      }
+    }
+  }
+}
+```
+@[2](source: Ключ - относительный путь веб-сервиса, Значение - конфиг авторизий)
+@[3](Относительный путь веб-сервиса)
+@[4](URL, который используется по-умолчанию для запроса авторизации)
+@[5](Список авторизаций)
+@[6](Название авторизации)
+@[7-12](Тело запроса на автоирзацию)
+@[8](Каждая авторизация может указать url отличный от url по-умолчанию)
