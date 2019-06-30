@@ -169,7 +169,7 @@ UI доступен для следующих веб-сервисов:
 
 <h4>@color[#1C60AC](HTTP Request)</h4>
 
-@ul(false)
+@ul[](false)
 * URL
 * Method
 * Query parameters
