@@ -169,16 +169,17 @@ UI доступен для следующих веб-сервисов:
 
 <h4>@color[#1C60AC](HTTP Request)</h4>
 
-@ul[](false)
-* @size[0.5em](URL)
-* Method
-* Query parameters
-* Path variables
-* Headers
-* Cookies
-* Form-data
-* Body
-@ulend
+```bash
+#HTTP Request
+"URL"
+"Method"
+"Query parameters"
+"Path variables"
+"Headers"
+"Cookies"
+"Form-data"
+"Body"
+```
 
 ```java
     given(sherbook())
