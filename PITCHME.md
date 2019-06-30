@@ -146,10 +146,11 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 - Swagger - средство для описания структуры API
 @ulend
 
-@ul[para](false)
+@ul[list-bullets-circles](false)
 - Swagger UI:
 @ulend
-@ul[para](false)
+
+@ul[list-bullets-circles](false)
 - Интерфейс для отображения документации и структуры API в удобночитаемом виде
 - Позволяет запускать запросы, авторизовываться
 - Предоставляет примеры запросов для быстрого формирования Json
