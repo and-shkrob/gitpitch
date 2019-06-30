@@ -147,7 +147,6 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 @ulend
 
 <br>
-<br>
 
 @ul[para](false)
 - Swagger UI:
