@@ -130,10 +130,10 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 <h4>@color[#1C60AC](HTTP Session vs Token)</h4>
 
 @ul[para]
-- [[TX-19264]](https://youtrack.haulmont.com/issue/TX-19264) @Sherbook. Get rid of session_id cookie @css[text-green]([Verified])
+- [[TX-19264]](https://youtrack.haulmont.com/issue/TX-19264) Sherbook. Get rid of session_id cookie @css[text-green]([Verified])
 - [[TX-19298]](https://youtrack.haulmont.com/issue/TX-19298) Quickbooker: get rid of session_id cookie @css[text-green]([Verified])
 - [[TX-20346]](https://youtrack.haulmont.com/issue/TX-20346) Cross-application credentials @css[text-green]([Fixed])
 - [[TX-20258]](https://youtrack.haulmont.com/issue/TX-20258) Driver-WS V2 get rid of using HTTP-session @css[text-blue]([Open, 47])
 - [[TX-19155]](https://youtrack.haulmont.com/issue/TX-19155) Webportal: ability to login under 2 or more logins @css[text-blue]([Open, 47])
-- [[TX-20624]](https://youtrack.haulmont.com/issue/TX-20624) Полностью> уйти от использования jsessionid, http session, cookies в sherbook @css[text-blue]([Epic])
+- [[TX-20624]](https://youtrack.haulmont.com/issue/TX-20624) Полностью уйти от использования jsessionid, http session, cookies в sherbook @css[text-blue]([Epic])
 @ulend
