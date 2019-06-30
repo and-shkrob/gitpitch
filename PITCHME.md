@@ -220,7 +220,7 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
-<h4>API Generator</h4>
+<h4>@color[#1C60AC](API Generator)</h4>
 
 @ul[text-6](false)
 * Swagger публикует структуру api в виде Json по спецификации [OpenAPI](https://swagger.io/specification/)
@@ -230,7 +230,7 @@ UI доступен для следующих веб-сервисов:
 @ulend
 
 Шаблоны:
-@ul[](false)
+@ul[text-6](false)
 * controller.ftl - API
 * enumClass.ftl - модель enumeration
 * groovyClass.ftl - модель dto
