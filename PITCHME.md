@@ -361,3 +361,27 @@ UI доступен для следующих веб-сервисов:
 * @color[#1C60AC](AuthorizationListener) - lookup class-level, method-level annotations, register authorizations in thread local filter
 * @color[#1C60AC](ThreadLocalAuthFilter) - remember thread-local auth id, authorize before first request, tune headers
 @ulend
+
+---
+
+<h4>@color[#1C60AC](Allure)</h4>
+
+@ul[para]
+- Основная задача - генерация удобночитаемых отчетов
+@ulend
+
+Основные разделы:
+@ul[text-6](false)
+* @color[#1C60AC](Overview) - entry point for every report. Dashboards and widgets
+* @color[#1C60AC](Categories) - defects Classification
+* @color[#1C60AC](Suites) - standard structural representation of executed tests
+* @color[#1C60AC](Graphs) - different statistics collected from the test data
+* @color[#1C60AC](Timeline) - visualizes retrospective of tests execution
+* @color[#1C60AC](Behaviors) - groups test results according to Epic, Feature and Story tags
+* @color[#1C60AC](Packages) - packages tab represents a tree-like layout of test results, grouped by different packages
+@ulend
+
+---
+
+<h4>@color[#1C60AC](Allure)</h4>
+
