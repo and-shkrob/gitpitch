@@ -453,5 +453,5 @@ public class MyTest {
 Gradle tasks:
 @ul[text-6](false)
 * @color[#1C60AC](allureReport) - сгенерировать отчет. Данные берутся из директории allure-results 
-* @color[#1C60AC](allureServe) - сгенерировать и отобразить репорт
+* @color[#1C60AC](allureServe) - сгенерировать и отобразить отчет
 @ulend
