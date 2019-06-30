@@ -352,3 +352,12 @@ UI доступен для следующих веб-сервисов:
 @[6](ID авторизации. Это значение используется в коде)
 @[7-12](Тело запроса на авторизацию)
 @[8](Каждая авторизация может указать url отличный от url по-умолчанию)
+
+---
+
+<h4>@color[#1C60AC](API Authorization)</h4>
+
+@ul[text-6](false)
+* @color[#1C60AC](AuthorizationListener) - lookup class-level, method-level annotations, register authorizations in thread local filter
+* @color[#1C60AC](ThreadLocalAuthFilter) - remember thread-local auth id, authorize before first request, tune headers
+@ulend
