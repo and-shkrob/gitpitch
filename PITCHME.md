@@ -291,4 +291,26 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
-<h4>@color[#1C60AC](API Authorization)</h4>
+<h4>@color[#1C60AC](API Generator)</h4>
+
+Структура сгенерированных файлов
+
+```text
+└── ws
+    └── com.haulmont.taxi.tool.ws.api
+        ├── am_ws
+        │   ├── api
+        │   │   ├── AccountControllerApi
+        │   │   └── ...
+        │   ├── model
+        │   │   ├── enums
+        │   │   │   ├── Level
+        │   │   │   └── ...
+        │   │   ├── AccountDto
+        │   │   └── ...
+        │   └── readme.md
+        ...
+```
+Javadocs
+
+![Javadocs](template/img/javadocs.png)
