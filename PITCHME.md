@@ -238,4 +238,32 @@ UI доступен для следующих веб-сервисов:
 * reserved_words.ftl - список зарезервированных слов groovy/java
 @ulend
 
+---
+
+<h4>@color[#1C60AC](API Generator)</h4>
+
+```json
+{
+  "baseUrl": "http://testdev-stable.sherlock.com/",
+  "apiDocsPath": "v2/api-docs",
+  "apis": [
+    {
+      "name": "sherbook",
+      "path": "sherbook"
+    },
+    {
+      "name": "external-ws",
+      "path": "external-ws"
+    },
+    {
+      "name": "am-ws",
+      "path": "external-ws/amp"
+    },
+    {
+      "name": "dashboards",
+      "path": "external-ws/dab"
+    }
+  ]
+}
+```
 
