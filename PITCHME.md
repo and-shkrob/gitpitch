@@ -122,5 +122,18 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 @[14-18](Верные данные обрабатываются и возвращается статус 200)
 
 @ul[para]
-- Подобным образом работают и другие типы авторизаций. В Sherlock используется Basic и Bearer схемы
+- Подобным образом работают и другие типы авторизаций. Sherlock использует Basic и Bearer схемы
+@ulend
+
+---
+
+<h4>@color[#1C60AC](HTTP Session vs Token)</h4>
+
+@ul[para]
+- [TX-19264](https://youtrack.haulmont.com/issue/TX-19264) Sherbook. Get rid of session_id cookie
+- [TX-19298](https://youtrack.haulmont.com/issue/TX-19298) Quickbooker: get rid of session_id cookie
+- [TX-20346](https://youtrack.haulmont.com/issue/TX-20346) Cross-application credentials
+- [TX-20258](https://youtrack.haulmont.com/issue/TX-20258) Driver-WS V2 get rid of using HTTP-session [Open, 47]
+- [TX-19155](https://youtrack.haulmont.com/issue/TX-19155) Webportal: ability to login under 2 or more logins [Open, 47]
+- [TX-20624](https://youtrack.haulmont.com/issue/TX-20624) Полностью уйти от использования jsessionid, http session, cookies в sherbook [Epic]
 @ulend
