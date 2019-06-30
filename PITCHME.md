@@ -311,6 +311,10 @@ UI доступен для следующих веб-сервисов:
         │   └── readme.md
         ...
 ```
-Javadocs
+
+---
+<h4>@color[#1C60AC](API Generator)</h4>
+
+Описание каждого метода доступно как javadocs. По нажатию ctrl + Q можно включить preview mode
 
 ![Javadocs](template/img/javadocs.png)
