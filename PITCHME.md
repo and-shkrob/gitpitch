@@ -450,6 +450,8 @@ public class MyTest {
 @[1-5](Issue - ссылка на багтрекинг тикет, TmsLink - ссылка на тикет с описание тестов, Link - произвольная ссылка)
 @[6-7](Severity - уровень важности)
 
+<br>
+
 Gradle tasks:
 @ul[text-6](false)
 * @color[#1C60AC](allureReport) - сгенерировать отчет. Данные берутся из директории allure-results 
