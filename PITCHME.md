@@ -167,4 +167,16 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
+<h4>@color[#1C60AC](HTTP Request)</h4>
+
+@ul
+* URL запроса
+* Method
+* Query parameters
+* Path variables
+* Headers
+* Cookies
+* Form-data
+* Body
+@uiend
 
