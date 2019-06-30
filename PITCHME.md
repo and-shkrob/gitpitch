@@ -416,7 +416,6 @@ byte[] getBytes(String resourceName)  {}
 @Description(value "Описание теста")
 
 //Аннотации функциональности
-
 @Epic("Allure examples")
 @Feature("Junit 4 support")
 public class MyTest {
@@ -427,7 +426,6 @@ public class MyTest {
     public void testSomething() throws Exception {
         // ...
     }
-
 }
 ```
 @[1-2](Step аннотация позволяет добавить новый шаг в отчет)
