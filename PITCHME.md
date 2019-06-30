@@ -156,3 +156,15 @@ UI доступен для следующих веб-сервисов:
 - [Dab](http://demo-stable.sherlock.com/external-ws/dab/swagger-ui.html#/) /external-ws/dab/swagger-ui.html
 - [External-ws](http://demo-stable.sherlock.com/external-ws/swagger-ui.html#/) /external-ws/swagger-ui.html
 @ulend
+
+---
+
+<h4>@color[#1C60AC](Swagger UI)</h4>
+
+@snap[midpoint span-100]
+![Swagger UI](template/img/swagger.png)
+@snapend
+
+---
+
+
