@@ -70,7 +70,7 @@ If-None-Match: W/"1216099-1561858521000"
 
 #Not modified
 GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890.js
-304 GET http://demo-stable.sherlock.com/portal/js/messages-57ae54605c890.js
+304 Not Modified
 
 #Cache control
 Cache-control: no-store no-cache max-age=31536000 must-revalidate
@@ -136,4 +136,21 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 - [[TX-20258]](https://youtrack.haulmont.com/issue/TX-20258) Driver-WS V2 get rid of using HTTP-session @css[text-blue]([Open, 47])
 - [[TX-19155]](https://youtrack.haulmont.com/issue/TX-19155) Webportal: ability to login under 2 or more logins @css[text-blue]([Open, 47])
 - [[TX-20624]](https://youtrack.haulmont.com/issue/TX-20624) Полностью уйти от использования jsessionid, http session, cookies в sherbook @css[text-blue]([Epic])
+@ulend
+
+---
+
+<h4>@color[#1C60AC](Swagger)</h4>
+
+@ul[para](false)
+- Swagger - средство для описания структуры API
+@ulend
+
+@ul[para](false)
+- Swagger UI:
+@ulend
+@ul[para](false)
+- Интерфейс для отображения документации и структуры API в удобночитаемом виде
+- Позволяет запускать запросы, авторизовываться
+- Предоставляет примеры запросов для быстрого формирования Json
 @ulend
