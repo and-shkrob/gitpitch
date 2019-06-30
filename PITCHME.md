@@ -383,22 +383,37 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
-<h4>@color[#1C60AC](Allure)</h4>
+<h4>@color[#1C60AC](Allure Report)</h4>
 
 ![Allure Tab](template/img/allure_tab.png)
 
 ---
 
-<h4>@color[#1C60AC](Allure)</h4>
+<h4>@color[#1C60AC](Allure Report)</h4>
 
 ![Allure ra](template/img/allure_passed_ra_test.png)
 
 ---
 
-<h4>@color[#1C60AC](Allure)</h4>
+<h4>@color[#1C60AC](Allure Report)</h4>
 
 ![Allure ui](template/img/allure_failed_ui_test.png)
 
 ---
 
-<h4>@color[#1C60AC](Allure)</h4>
+<h4>@color[#1C60AC](Allure Code)</h4>
+
+```java
+@Step
+void someStep(){}
+
+@Step("Проверка разности числа {num1} и числа {num2}")
+void checkSubtractionStep(int num1, int num2, int expectedResult) {}
+
+@Attachment("Мой собственный аттач")
+byte[] getBytes(String resourceName)  {}
+```
+@[1-2](Step аннотация позволяет добавить новый шаг в отчет)
+@[4-5](Step умеет обращаться к параметрам метода)
+@[7-8](Attackment аннотация позволяет добавить собственное вложение в тест)
+
