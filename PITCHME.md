@@ -148,7 +148,7 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 - Предоставляет примеры запросов для быстрого формирования Json
 @ulend
 
-@size[80%](UI доступен для следующих веб-сервисов:)
+UI доступен для следующих веб-сервисов:
 
 @ul[para](false)
 - [Sherbook](http://demo-stable.sherlock.com/sherbook/swagger-ui.html#/) /sherbook/swagger-ui.html
