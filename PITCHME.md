@@ -367,7 +367,7 @@ UI доступен для следующих веб-сервисов:
 <h4>@color[#1C60AC](Allure)</h4>
 
 @ul[para](false)
-- @css[text-6](Основная задача - генерация удобночитаемых отчетов)
+- @css[text-8](Основная задача - генерация удобночитаемых отчетов)
 @ulend
 
 Основные разделы:
@@ -385,3 +385,20 @@ UI доступен для следующих веб-сервисов:
 
 <h4>@color[#1C60AC](Allure)</h4>
 
+![Allure Tab](template/img/allure_tab.png)
+
+---
+
+<h4>@color[#1C60AC](Allure)</h4>
+
+![Allure ra](template/img/allure_passed_ra_test.png)
+
+---
+
+<h4>@color[#1C60AC](Allure)</h4>
+
+![Allure ui](template/img/allure_failed_ui_test.png)
+
+---
+
+<h4>@color[#1C60AC](Allure)</h4>
