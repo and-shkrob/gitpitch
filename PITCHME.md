@@ -410,10 +410,39 @@ void someStep(){}
 @Step("Проверка разности числа {num1} и числа {num2}")
 void checkSubtractionStep(int num1, int num2, int expectedResult) {}
 
-@Attachment("Мой собственный аттач")
+@Attachment(value = "Вложение", type = "application/json", fileExtension = ".txt")
 byte[] getBytes(String resourceName)  {}
+
+@Description(value "Описание теста")
+
+//Аннотации функциональности
+
+@Epic("Allure examples")
+@Feature("Junit 4 support")
+public class MyTest {
+
+    @Test
+    @Story("Base support for bdd annotations")
+    @Story("Advanced support for bdd annotations")
+    public void testSomething() throws Exception {
+        // ...
+    }
+
+}
+
+//Аннотации ссылок
+
+@Issue("TX-21152")
+@TmsLink("TX-21152")
+@Link("https://youtrack.haulmont.com/issue/TX-21152")
+
+@Severity(SeverityLevel.MINOR)
 ```
 @[1-2](Step аннотация позволяет добавить новый шаг в отчет)
 @[4-5](Step умеет обращаться к параметрам метода)
-@[7-8](Attackment аннотация позволяет добавить собственное вложение в тест)
+@[7-8](Attachment аннотация позволяет добавить собственное вложение в тест)
+@[10](Description аннотация добавляет описание в тест)
+@[12-25](Epic, Feature, Story служат для группировки тестов по функциональным особенностям)
+@[27-31](Issue - ссылка на багтрекинг тикет, TmsLink - ссылка на тикет с описание тестов, Link - произвольная ссылка)
+@[33](Severity - уровень важности)
 
