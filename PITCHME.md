@@ -86,9 +86,6 @@ Expires: Sun, 30 Jun 2019 01:35:21 GMT
 ![Cache](template/img/cached.png)
 @snapend
 
-
-
-
 ---
 
 <h4>@color[#1C60AC](HTTP Authentication)</h4>
