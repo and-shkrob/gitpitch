@@ -143,7 +143,7 @@ Authorization: Basic aGF1bG1vbnQ6SGF1IW0wbnQ=
 <h4>@color[#1C60AC](Swagger)</h4>
 
 @ul[para](false)
-- Swagger - средство для описания структуры API. Swagger имеет web ui
+- Swagger - средство для описания структуры API
 @ulend
 
 @ul[list-bullets-circles](false)
