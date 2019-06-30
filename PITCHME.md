@@ -220,9 +220,9 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
-<h4>@color[#E71E60](API Generator)</h4>
+<h4>API Generator</h4>
 
-@ul[](false)
+@ul[text-5](false)
 * Swagger публикует структуру api в виде Json по спецификации [OpenAPI](https://swagger.io/specification/)
 * Документацию можно найти по относительному пути **/v2/api-docs**, например http://demo-stable.sherlock.com/external-ws/amp/v2/api-docs
 * Генератор парсит json доки. Из полученных данных генерируется модель данных и классы api
