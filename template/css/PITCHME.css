@@ -324,7 +324,7 @@
     color: crimson !important;
 }
 .author-box {
-    font-size: 50%;
+    font-size: 50% !important;
     text-align: left;
 }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
