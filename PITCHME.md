@@ -220,4 +220,22 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
+<h4>@color[#E71E60](API Generator)</h4>
+
+@ul[](false)
+* Swagger публикует структуру api в виде Json по спецификации [OpenAPI](https://swagger.io/specification/)
+* Документацию можно найти по относительному пути **/v2/api-docs**, например http://demo-stable.sherlock.com/external-ws/amp/v2/api-docs
+* Генератор парсит json доки. Из полученных данных генерируется модель данных и классы api
+* Для генерации используется язык шаблонов Freemarker (.ftl)
+@ulend
+
+Шаблоны:
+@ul[](false)
+* controller.ftl - API
+* enumClass.ftl - модель enumeration
+* groovyClass.ftl - модель dto
+* macro.ftl - freemarker макросы
+* reserved_words.ftl - список зарезервированных слов groovy/java
+@ulend
+
 
