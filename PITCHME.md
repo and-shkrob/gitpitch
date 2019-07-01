@@ -3,7 +3,7 @@
 
 @snap[north slide1]
 <h1>Sherlock</h1>
-@size[80%](Web Services Overview)
+@size[80%](Web Services)
 @snapend
 
 @snap[east author-box]
