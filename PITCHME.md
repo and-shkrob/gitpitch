@@ -322,6 +322,34 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
+<h4>@color[#1C60AC](API Usage)</h4>
+
+```groovy
+    @Test
+    void testLoginRetail() {
+        LoginControllerApi.loginRetailUsingPOST().execute { 
+            phone = '+79171671649'; password = '624249'
+        }.then().statusCode(200)
+       
+        def retailResponse = LoginControllerApi.loginRetailUsingPOST().extract { 
+            phone = '+79171671649'; password = '624249'
+        }
+        assertTrue retailResponse.sessionToken as boolean
+        
+        List<AccountAddressDto> addresses = AccountAddressesControllerApi.getAccountAddressesUsingGET()
+                .limit(100)
+                .offset(0)
+                .extract()
+    }
+```
+@[3-5](Чтобы запустить реквест достаточно выбрать нужное api, метод и выполнить execute)
+@[3-5](Execute может принимать body или bodyClosure)
+@[3-5](Ответом является стандартный RestAssured Response объект)
+@[7-10](Если метод имеет response body, то можно выполнить extract. Метод возвращает типизированный ответ)
+@[12-15](Если метод имеет параматеры запроса, path variables и проче, то к ним можно образатся как к методам билдера)
+
+---
+
 <h4>@color[#1C60AC](API Authorization)</h4>
 
 @color[#1C60AC](@Authorized) аннотация позволяет авторизовать RestAssured тест. Поле id данной аннотации ссылается на значение из конфигурации
