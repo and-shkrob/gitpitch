@@ -520,8 +520,10 @@ Gradle tasks:
 
 ---
 
+@snap[north span-100]
 <h4>@color[#1C60AC](Teamcity Steps)</h4>
+@snapend
 
-@snap[midpoint max-height]
+@snap[midpoint span-100]
 ![Teamcity Steps](template/img/teamcity_steps.png)
 @snapend
