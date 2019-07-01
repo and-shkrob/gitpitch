@@ -224,6 +224,10 @@
 .span-95 { width: 95% }
 .span-100 { width: 100% }
 
+.max-height {
+    max-height: 100%;
+}
+
 
 /** Reveal.js Core Override Styles **/
 

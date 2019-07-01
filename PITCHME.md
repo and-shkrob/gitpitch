@@ -371,7 +371,6 @@ UI доступен для следующих веб-сервисов:
 @ulend
 
 @snap[west span-80]
-Основные разделы:
 @ul[text-6](false)
 * @color[#1C60AC](Overview) - entry point for every report. Dashboards and widgets
 * @color[#1C60AC](Categories) - defects Classification
@@ -383,7 +382,7 @@ UI доступен для следующих веб-сервисов:
 @ulend
 @snapend
 
-@snap[east span-20]
+@snap[east span-20 max-height]
 ![Allure Sidebar](template/img/allure_sidebar.png)
 @snapend
 
