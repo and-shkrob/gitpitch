@@ -370,6 +370,7 @@ UI доступен для следующих веб-сервисов:
 - @css[text-8](Основная задача - генерация удобночитаемых отчетов)
 @ulend
 
+@snap[west span-80]
 Основные разделы:
 @ul[text-6](false)
 * @color[#1C60AC](Overview) - entry point for every report. Dashboards and widgets
@@ -380,6 +381,11 @@ UI доступен для следующих веб-сервисов:
 * @color[#1C60AC](Behaviors) - groups test results according to Epic, Feature and Story tags
 * @color[#1C60AC](Packages) - packages tab represents a tree-like layout of test results, grouped by different packages
 @ulend
+@snapend
+
+@snap[east span-20]
+![Allure Sidebar](template/img/allure_sidebar.png)
+@snapend
 
 ---
 
