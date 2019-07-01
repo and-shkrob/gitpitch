@@ -336,17 +336,18 @@ UI доступен для следующих веб-сервисов:
         }
         assertTrue retailResponse.sessionToken as boolean
         
-        List<AccountAddressDto> addresses = AccountAddressesControllerApi.getAccountAddressesUsingGET()
+        List<AccountAddressDto> addresses = 
+            AccountAddressesControllerApi.getAccountAddressesUsingGET()
                 .limit(100)
                 .offset(0)
                 .extract()
     }
 ```
 @[3-5](Чтобы запустить реквест достаточно выбрать нужное api, метод и выполнить execute)
-@[3-5](Execute может принимать body или bodyClosure)
-@[3-5](Ответом является стандартный RestAssured Response объект)
+@[4](Execute может принимать body или bodyClosure)
+@[5](Ответом является стандартный RestAssured Response объект, который можно валидировать)
 @[7-10](Если метод имеет response body, то можно выполнить extract. Метод возвращает типизированный ответ)
-@[12-15](Если метод имеет параматеры запроса, path variables и прочие настраиваемы параметры, то к ним можно образатся как к методам билдера)
+@[12-16](Если метод имеет параматеры запроса, path variables и прочие настраиваемые параметры, то к ним можно образатся как к методам билдера)
 
 ---
 
