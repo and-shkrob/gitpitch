@@ -473,7 +473,7 @@ void checkSubtractionStep(int num1, int num2, int expectedResult) {}
 @Attachment(value = "Вложение", type = "application/json", fileExtension = ".txt")
 byte[] getBytes(String resourceName)  {}
 
-@Description(value "Описание теста")
+@Description(value = "Описание теста")
 
 //Аннотации функциональности
 @Epic("Allure examples")
