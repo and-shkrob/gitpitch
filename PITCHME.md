@@ -364,6 +364,32 @@ UI доступен для следующих веб-сервисов:
 
 ---
 
+<h4>@color[#1C60AC](API Authorization Code Example)</h4>
+
+```java
+@Authorized(id = "default")
+public class MyTest {
+
+    @Test
+    @Authorized(false)
+    void unauthoruzedTest() { }
+    
+    @Test
+    void authorizedTest() {}
+    
+    @Test
+    @Authorized(id = "not_default")
+    void unauthoruzedTest() { }
+    
+}
+```
+@[1-2](Можно использовать аннотацию на уровне класса, это применит авторизацию ко всем тестам данного класса)
+@[4-6](Можно отключить авторизацию на конкретном тесте)
+@[1-2, 8-9](Данный тест будет авторизован по-умолчанию)
+@[11-13](Данный тест переопределяет авторизацию по-умолчанию)
+
+---
+
 <h4>@color[#1C60AC](Allure)</h4>
 
 @ul[para](false)
