@@ -517,3 +517,9 @@ Gradle tasks:
 * @color[#1C60AC](allureReport) - сгенерировать отчет. Данные берутся из директории allure-results 
 * @color[#1C60AC](allureServe) - сгенерировать и отобразить отчет
 @ulend
+
+---
+
+<h4>@color[#1C60AC](Teamcity Steps)</h4>
+
+![Teamcity Steps](template/img/teamcity_steps.png)
